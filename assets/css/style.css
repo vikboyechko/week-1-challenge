@@ -80,28 +80,39 @@ nav {
 main {
     color: #ffffff;
     float: left;
-    width: 70%;
-    background-color: #0072bb;
+    width: 78%;
     padding-bottom: 40px;
+}
+
+main h2 {
+    font-size: 40px;
 }
 
 .main-left {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 40px;
     display: block;
     margin-left: 20px;
     display: block;
     clear:both;
+    background-color: #0072bb;
+    height: 300px;
 }
 
-.main-left img {
+.main-left .float-left {
     float: left;
-    padding-right: 25px;
-    max-width: 30%;
+    padding: 0 25px 25px 0;
+    width: 350px;
+}
+
+.main-left .float-right {
+    float: right;
+    padding: 0 0 25px 25px;
+    width: 350px;
 }
 
 aside {
-    width: 29%;
+    width: 20%;
     float: right;
     margin: 5px;
     color: white;
@@ -135,7 +146,7 @@ aside h3 {
 footer {
     position:relative;
     clear: both;
-    left:50%;
+    left:40%;
     margin: auto;
     padding: 40px;
 }
